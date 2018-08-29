@@ -237,9 +237,9 @@ function numberToUkrainian(n) {
     hundreds = ['', 'сто', 'двісті', 'триста', 'чотириста', 'п\'ятсот', 'шістсот', 'сімсот', 'вісімсот', 'дев\'ятсот'];
 
     /* Array of scales as words */
-    scales = ['', 'тисяча', 'мільйон', 'мільярд'];
+    scales = ['', 'тисяча', 'мільйон', 'мільйярд'];
     scales2 = ['', 'тисячі', 'мільйони', 'мільйярди'];
-    scales3 = ['', 'тисяч', 'мільйонів', 'мільйядрів'];
+    scales3 = ['', 'тисяч', 'мільйонів', 'мільйярдів'];
 
     /* Splitting input value into 3 digit chunks from right to left */
     start = string.length;
@@ -383,7 +383,7 @@ function numberToUkrainian(n) {
     }
 
     if (words.indexOf("одна мільярд") != -1){
-        words = words.replace("одна мільярд", "один мільярд");
+        words = words.replace("одна мільярд", "один мільйярд");
     }
 
     if (words.indexOf("дві мільйони") != -1){
