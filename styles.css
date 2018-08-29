@@ -1,0 +1,25 @@
+body {
+    background-color: #D3D3D3;
+    text-align: center;
+}
+
+.number {
+    height: 1.5em;
+    width: 20em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.radio {
+    margin-left: 1em; 
+    cursor: pointer;
+}
+
+.submit {
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    background-color: #fff;
+    width: 5em;
+    cursor: pointer;
+}

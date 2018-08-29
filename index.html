@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Converter</title>
+</head>
+<body>
+        <h1>Convert a number into a local currency</h1>
+            <form class="form" id="form" method="post">
+                <h3>Please enter an amount of money between 0 and 2147483647 (the fractional input value will be rounded to the nearest hundredth): </h3>
+                <input id="number" class="number" type="number" min="0" max="2147483647" required>
+                <hr>
+                <h3>Please select your preferred language: </h3>
+                <input type="radio" class="radio" name="language" value="Ukrainian" required><label for="ukrainian">Ukrainian</label>
+                <input type="radio" class="radio" name="language" value="English"><label for="english">English</label><br>
+                <input type="button" class="submit" value="submit" id="submit">
+            </form>
+            <hr>
+            <div class="output" id="output">
+            </div>
+<script src="main.js"></script>
+</body>
+</html>
