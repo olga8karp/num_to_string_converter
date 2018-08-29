@@ -382,8 +382,8 @@ function numberToUkrainian(n) {
         words = words.replace("одна мільйон", "один мільйон");
     }
 
-    if (words.indexOf("одна мільярд") != -1){
-        words = words.replace("одна мільярд", "один мільйярд");
+    if (words.indexOf("одна мільйярд") != -1){
+        words = words.replace("одна мільйярд", "один мільйярд");
     }
 
     if (words.indexOf("дві мільйони") != -1){
